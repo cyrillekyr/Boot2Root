@@ -1,0 +1,3 @@
+find / -type f -perm -04000 -ls 2>/dev/null : will list files that have SUID or SGID bits set
+
+python3 -c "import pty; pty.spawn('/bin/bash')" :  access a terminal
